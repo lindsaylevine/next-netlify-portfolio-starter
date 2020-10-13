@@ -4,6 +4,7 @@ import Nav from '@components/Nav'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import ContactForm from '@components/ContactForm'
+import BadForm from '@components/BadForm'
 
 export default function Contact() {
   return (
@@ -16,6 +17,7 @@ export default function Contact() {
       <main>
         <Header text="Contact me" />
         <ContactForm />
+        <BadForm />
       </main>
 
       <Footer />
